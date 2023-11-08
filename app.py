@@ -19,7 +19,7 @@ inflacion = inflacion.set_index('Periodo')
 inflacion = inflacion[['2019', '2020', '2021', '2022', '2023']]
 
 # Cargar datos de IMAE
-imae = pd.read_csv('imae.csv')
+imae = pd.read_csv('IMAE.csv')
 imae = imae.set_index('Período')
 
 # Crear gráfico interactivo de cambio de dólar
